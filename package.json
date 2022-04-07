@@ -1,0 +1,27 @@
+{
+  "name": "shipsafe",
+  "version": "1.0.0",
+  "description": "GraphQl server handling all shipping process",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyusuf05/shipSafe.git"
+  },
+  "author": "kkodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyusuf05/shipSafe/issues"
+  },
+  "homepage": "https://github.com/kyusuf05/shipSafe#readme",
+  "dependencies": {
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "graphql-tools": "^8.2.4"
+  }
+}
